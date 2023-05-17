@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Register_Login_Application</string>
+    <string name="hint1"><i>➜Register</i></string>
+    <string name="hint2"><i>➜Login</i></string>
+</resources>

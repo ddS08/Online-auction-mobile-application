@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sell">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        android:background="@drawable/i8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/btn_sell"
+            android:layout_width="152dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="169dp"
+            android:layout_marginBottom="19dp"
+            android:onClick="input"
+            android:text="Sell" />
+
+        <EditText
+            android:id="@+id/name_id2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="46dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#3EE6FA"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="79dp"
+            android:text="Product Name:"
+            android:textColor="#3EE6FA"
+            android:textColorHighlight="#F4F4F4"
+            android:textColorHint="#FDFDFD"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/pro_id"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="134dp"
+            android:layout_marginEnd="41dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#3EE6FA"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="199dp"
+            android:text="Price:"
+            android:textColor="#3EE6FA"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="191dp"
+            android:layout_marginEnd="41dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="#3EE6FA"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="258dp"
+            android:text="Buy Now Price:"
+            android:textColor="#3EE6FA"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/buynow"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="41dp"
+            android:layout_marginBottom="301dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#3EE6FA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="138dp"
+            android:text="Product ID:"
+            android:textColor="#3EE6FA"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="317dp"
+            android:text="Image:"
+            android:textColor="#3EE6FA"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="197dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="26dp"
+            android:text="Product Details"
+            android:textColor="#3EE6FA"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/coverimage"
+            android:layout_width="163dp"
+            android:layout_height="176dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="100dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="113dp"
+            android:clickable="true"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

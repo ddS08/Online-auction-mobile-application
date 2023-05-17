@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        android:background="@drawable/i2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <EditText
+            android:id="@+id/name_id"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="122dp"
+            android:layout_marginEnd="47dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#3EE6FA"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="57dp"
+            android:text="Sign Up"
+            android:textColor="#3EE6FA"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="121dp"
+            android:text="Name:"
+            android:textColor="#3EE6FA"
+            android:textColorHighlight="#F4F4F4"
+            android:textColorHint="#FDFDFD" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="180dp"
+            android:text="Username:"
+            android:textColor="#3EE6FA" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="301dp"
+            android:text="Password:"
+            android:textColor="#3EE6FA" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="116dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="241dp"
+            android:text="Email ID:"
+            android:textColor="#3EE6FA" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="167dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="364dp"
+            android:text="Re-enter Password:"
+            android:textColor="#3EE6FA" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="167dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="424dp"
+            android:text="Phone Number:"
+            android:textColor="#3EE6FA" />
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="152dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="input"
+            android:text="Register" />
+
+        <EditText
+            android:id="@+id/user_id"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="176dp"
+            android:layout_marginEnd="42dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#3EE6FA"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/pass_id"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="259dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#3EE6FA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/repass_id"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="201dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#3EE6FA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/phone_id"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="134dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textColor="#3EE6FA"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/email_id"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="234dp"
+            android:layout_marginEnd="42dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="#3EE6FA"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
